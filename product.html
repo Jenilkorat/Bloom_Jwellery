@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Product_page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl_carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+
+    <!-- js -->
+    <script src="assets/js/jquery-3.6.4.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/index.js"></script>
+</head>
+
+<body>
+    <div class="page-wrapper">
+        <!-- HEADER_START -->
+        <header>
+            <div class="header-top d-block">
+                <div class="container">
+                    <div class="row">
+                        <div class="inner d-flex justify-content-between align-items-center">
+                            <div class="header-left">
+                                <p class="m-0">Welcome to you Store!</p>
+                            </div>
+                            <div class="header-right d-flex">
+                                <div class="item d-flex">
+                                    <div class="icon-block">
+                                        <i class="fas fa-envelope"></i>
+                                    </div>
+                                    <div class="text-block">
+                                        <a href="https://www.google.com/intl/en_in/gmail/about" class="position-relative d-block">
+                                            xyz@gmail.com
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="item d-flex">
+                                    <div class="icon-block">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                    <div class="text-block">
+                                        <a href="tel:0123456789">0123456789</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header-bottom d-block position-relative">
+                <div class="container">
+                    <div class="row desctop-view" id="myheader">
+                        <div class="col-lg-2 col-md-3 item">
+                            <div class="haeder-logo">
+                                <a href="#">
+                                    <img src="assets/image/Bloom.png" alt="header-logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10 col-md-9 d-flex justify-content-end item">
+                            <div class="col-lg-7 header-searchbar">
+                                <div class="search-bar position-relative">
+                                    <form action="">
+                                        <input type="text" id="search" placeholder="Search entire store heare..">
+                                        <button class="position-absolute border-0 top-50">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="h-bottom-right d-flex justify-content-end align-items-center">
+                                    <div class="item user-account text-center">
+                                        <a href="#" class="d-block">
+                                            <i class="far fa-user"></i>
+                                            <div>Profile</div>
+
+                                        </a>
+                                    </div>
+                                    <div class="item user-wishlist text-center">
+                                        <a href="#" class="d-block">
+                                            <i class="far fa-heart"></i>
+                                            <div>Wishlist</div>
+
+                                        </a>
+                                    </div>
+                                    <div class="item user-cart text-center">
+                                        <a href="#" class="d-block">
+                                            <i class="fas fa-shopping-cart"></i>
+                                            <span class="count">0</span>
+                                            <div>Cart</div>
+                                        </a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="desctop-nav">
+                        <nav>
+                            <ul class="nav-links">
+                                <li class="links"><a href="#">Collecties</a></li>
+                                <li class="links"><a href="#">Sieraden
+                                        <span class="toogle"><i class="fas fa-angle-down"></i></span>
+                                    </a>
+                                    <ul class="submenu-1">
+                                        <li><a href="catogory.html">Category</a></li>
+                                        <li><a href="contact_us.html">Contact</a></li>
+                                        <li><a href="product.html">Product</a></li>
+                                        <li><a href="faq.html">Faq</a></li>
+                                    </ul>
+                                </li>
+                                <li class="links"><a href="#">Goud
+                                        <span class="toogle"><i class="fas fa-angle-down"></i></span>
+                                        <ul class="submenu-1">
+                                            <li><a href="catogory.html">Category</a></li>
+                                            <li><a href="contact_us.html">Contact</a></li>
+                                            <li><a href="product.html">Product</a></li>
+                                            <li><a href="faq.html">Faq</a></li>
+                                        </ul>
+                                    </a></li>
+                                <li class="links"><a href="#">Zilver</a></li>
+                                <li class="links"><a href="#">Trouwsieraden</a></li>
+                                <li class="links"><a href="#">Heren sieraden
+                                        <span class="toogle"><i class="fas fa-angle-down"></i></span>
+                                        <ul class="submenu-1">
+                                            <li><a href="catogory.html">Category</a></li>
+                                            <li><a href="contact_us.html">Contact</a></li>
+                                            <li><a href="product.html">Product</a></li>
+                                            <li><a href="faq.html">Faq</a></li>
+                                        </ul>
+                                    </a></li>
+                                <li class="links"><a href="#">Kinderen</a></li>
+                                <li class="links"><a href="#">Horloges</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="mobile-header">
+                        <div class="row m-header-inner align-items-center">
+                            <div class="col-sm-2 mobile-navbar position-relative">
+                                <button>
+                                    <span class="open-menu">
+                                        <i class="fas fa-bars"></i>
+                                    </span>
+                                    <span class="close-menu">
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </button>
+                            </div>
+                            <div class="col-sm-4 mobile-logo">
+                                <a href="#">
+                                    <img src="assets/image/Bloom.png" alt="haeder-logo">
+                                </a>
+                            </div>
+                            <div class="col-sm-6 mobile-right position-relative">
+                                <ul class="d-flex m-0 justify-content-end">
+                                    <li><a href="#" class="d-block"><i class="far fa-user"></i></a></li>
+                                    <li><a href="#" class="d-block"><i class="far fa-heart"></i></a></li>
+                                    <li><a href="#" class="d-block"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#" class="search d-block"><i class="fas fa-search"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-nav">
+                        <ul>
+                            <li><a href="#" class="links">Collecties</a></li>
+                            <li><a href="#" class="links"><span>Sieraden</span></a>
+                                <span class="menu-title" data-content="#menu1">
+                                    <i class="fas fa-angle-down "></i>
+                                </span>
+                                <ul class="mob-content btn-rotate" id="menu1">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="catogory.html">Category</a></li>
+                                    <li><a href="product.html">Product</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="links">Goud</a>
+                                <span class="menu-title" data-content="#menu2">
+                                    <i class="fas fa-angle-down "></i>
+                                </span>
+                                <ul class="mob-content" id="menu2">
+                                    <li><a href="catogory.html">Category</a></li>
+                                    <li><a href="contact_us.html">Contact</a></li>
+                                    <li><a href="product.html">Product</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="links">Zilver</a></li>
+                            <li><a href="#" class="links">Trouwsieraden</a></li>
+                            <li><a href="#" class="links">Heren sieraden</a>
+                                <span class="menu-title" data-content="#menu3">
+                                    <i class="fas fa-angle-down "></i>
+                                </span>
+                                <ul class="mob-content" id="menu3">
+                                    <li><a href="catogory.html">Category</a></li>
+                                    <li><a href="contact_us.html">Contact</a></li>
+                                    <li><a href="product.html">Product</a></li>
+                                    <li><a href="faq.html">Faq</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="links">Kinderen</a></li>
+                            <li><a href="#" class="links">Horloges</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-search">
+                        <div class="search-bar">
+                            <form action="">
+                                <input type="text" id="search" placeholder="Search entire store heare..">
+                                <button>
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </header>
+        <!-- HEADER-END -->
+
+     <!-- BODY STRAT -->
+        <div class="main-wrapper">
+            <!-- BREAD CRUMB START -->
+            <div class="bread-outer">
+                <div class="container">
+                    <div class="row">
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                                <li class="breadcrumb-item active"><a href="product.html">Shop</a></li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- BREAD CRUMB END -->
+
+
+            <!-- BAGLE PRODUCT STRAT -->
+            <div class="bangle-outer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 item">
+                            <div class="inner">
+                                <div class="bangle-inner">
+                                    <div class="bangle owl-carousel owl-theme">
+                                        <div class="item" data-hash="1">
+                                            <img src="assets/image/bangle/bangle1.png" alt="bangle">
+                                        </div>
+                                        <div class="item" data-hash="2">
+                                            <img src="assets/image/bangle/bangle2.png" alt="bangle">
+                                        </div>
+                                        <div class="item" data-hash="3">
+                                            <img src="assets/image/bangle/bangle1.png" alt="bangle">
+                                        </div>
+                                        <div class="item" data-hash="4">
+                                            <img src="assets/image/bangle/bangle2.png" alt="bangle">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="bangle-nav">
+                                    <a href="#1">
+                                        <img src="assets/image/bangle/bangle1.png" alt="bangle">
+                                    </a>
+                                    <a href="#2">
+                                        <img src="assets/image/bangle/bangle2.png" alt="bangle">
+                                    </a>
+                                    <a href="#3">
+                                        <img src="assets/image/bangle/bangle1.png" alt="bangle">
+                                    </a>
+                                    <a href="#4">
+                                        <img src="assets/image/bangle/bangle2.png" alt="bangle">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 item">
+                            <div class="inner">
+                                <div class="item-top">
+                                    <div class="title">
+                                        <h4>Facere possimus</h4>
+                                    </div>
+                                    <p>Be the first to review this product</p>
+                                    <div class="price">
+                                        <span>$339.00</span>
+                                    </div>
+                                    <div class="product-code">
+                                        <div class="inner">
+                                            <div class="stock">
+                                                <span><img src="assets/image/bangle/stock.png" alt="stock"></span>
+                                                <span class="text">IN STOCK</span>
+                                            </div>
+                                            <div class="code">
+                                                <span>SKU#:</span>PROD003
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-middle">
+                                    <div class="title">Overview</div>
+                                    <div class="text">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                        tempor incididunt
+                                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                        exercitation
+                                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    </div>
+                                    <ul>
+                                        <li>Duis aute irure dolor in reprehenderit in voluptate.</li>
+                                        <li>Velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                                    </ul>
+                                </div>
+                                <div class="item-bottom">
+                                    <div class="title">Qty</div>
+                                    <div class="product-quntity">
+                                        <div class="quntity">
+                                            <span class="input"><input type="text" value="0" size="1"
+                                                    id="answer"></span>
+                                            <span class="add">
+                                                <div class="inner">
+                                                    <div class="qun-btn">
+                                                        <button onclick="add();">+</button>
+                                                    </div>
+                                                    <div class="qun-btn">
+                                                        <button class="minus" onclick="minus();">-</button>
+                                                    </div>
+                                                </div>
+                                            </span>
+                                        </div>
+                                        <div class="primary-btn">
+                                            <a href="#" class="action-primary">
+                                                ADD TO CART
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="reviews">
+                                        <span>
+                                            <i class="fas fa-heart"></i>
+                                            <a href="#"> ADD TO WISHLIST</a>
+                                        </span>
+                                        <span>
+                                            <i class="fas fa-signal"></i>
+                                            <a href="#">ADD TO COMPARE</a>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="offer">
+                                    <div class="text">
+                                        <i class="fas fa-star"></i>
+                                        Special Offer!
+                                    </div>
+                                    <p>
+                                        Ut enim ad minim veniam quis nostrud laboris nisi 20% off. Sed aliquip do
+                                        eiusmod tempor: <span>XYZ20</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BANGLE PRODUCT END -->
+
+
+            <!-- DETAILS AND REVIEW BLOCK START-->
+            <div class="details-outer">
+                <div class="container">
+                    <div class="details-inner">
+                        <div class="title-btn">
+                            <button type="button" class="details" id="details">Details</button>
+                            <button type="button" class="reviews" id="reviews">Review</button>
+                        </div>
+                        <div class="details-text">
+                            <div class="text-top">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            </div>
+                            <div class="text-middle">
+                                <ul>
+                                    <li>Duis aute irure dolor in reprehenderit in voluptate.</li>
+                                    <li>Velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                                    <li>Excepteur sint occaecat cupidatat non proident.</li>
+                                    <li>Sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                                </ul>
+                            </div>
+                            <div class="text-bottom">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                doloremque
+                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
+                                voluptas
+                                sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
+                                ratione voluptatem sequi nesciunt.
+                            </div>
+                        </div>
+                        <div class="review-text">
+                            <div class="inner">
+                                <span class="title">You're reviewing:</span>
+                                <div class="text">Facere possimuss</div>
+                                <table>
+                                    <tr>
+                                        <td><label for="nickname">Nickname<sup>*</sup></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" id="name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Summary">Summary<sup>*</sup></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="text" id="name"></td>
+                                    </tr>
+                                    <tr>
+                                        <td><label for="Review">Review<sup>*</sup></label></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <textarea id="text" cols="30" rows="10"></textarea>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td><button type="submit" value="" class="action-primary">Submit Review</button>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+            </div>
+             <!-- DETAILS AND REVIEW BLOCK END-->
+
+             <!-- RELETED PRODUCT START -->
+             <div class="collection-ouuter">
+            <div class="container">
+                <div class="collection-inner">
+                    <div class="section-title">
+                        <h2 class="title">
+                            Releted <i>Products</i>
+                        </h2>
+                    </div>
+                    <div class="collection-product">
+                        <div class="collection owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro1.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Dames ring Chayana</a></p>
+                                        <span>€ 239,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro2.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Mangalsutra Reyna</a></p>
+                                        <span>€ 540,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro3.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Dames Armband Warda</a></p>
+                                        <span>€ 4.420,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro4.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Gouden Indiase set Lalitha</a></p>
+                                        <span>€ 2.845,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- RELETED PRODUCT END -->
+
+
+             <!-- FEATURED COLLECTION START -->
+            <div class="collection-ouuter">
+            <div class="container">
+                <div class="collection-inner">
+                    <div class="section-title">
+                        <h2 class="title">
+                            Featured <i>Collection</i>
+                        </h2>
+                    </div>
+                    <div class="collection-product">
+                        <div class="collection owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro1.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Dames ring Chayana</a></p>
+                                        <span>€ 239,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro2.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Mangalsutra Reyna</a></p>
+                                        <span>€ 540,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro3.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Dames Armband Warda</a></p>
+                                        <span>€ 4.420,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="inner-item">
+                                    <div class="inner-img">
+                                        <img src="assets/image/pro4.png" alt="img">
+                                        <span><a href="#"><i class="fa-regular fa-heart"></i></a></span>
+                                    </div>
+                                    <div class="inner-content">
+                                        <p><a href="#">Gouden Indiase set Lalitha</a></p>
+                                        <span>€ 2.845,00</span>
+                                    </div>
+                                    <div class="hover content">
+                                        <a href="#"><i class="fa-solid fa-eye"></i></a>
+                                        <a href="#"><i class="fa-solid fa-chart-simple"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- FEATURED COLLECTION END -->
+        </div>
+    <!-- BODY END -->
+
+    <!-- FOOTER-START -->
+    <footer>
+        <div class="footer-top d-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 offer-new-outer">
+                        <div class="inner d-flex align-items-center">
+                            <div class="img">
+                                <img src="assets/image/Vector.png" alt="vector">
+                            </div>
+                            <div class="text">
+                                <p>Get Exclusive Offers and News</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-6 email-outer">
+                        <div class="inner item d-flex align-items-center">
+                            <div class="email">
+                                <input type="email" id="email" placeholder="Enter your email address" name="email">
+                            </div>
+                            <div class="btn">
+                                <button type="submit">SEND</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 social-outer">
+                        <div class="inner d-flex align-items-center">
+                            <ul class="social-links d-flex justify-content-center">
+                                <li><a href="#">
+                                        <img src="assets/image/Facebook.png" alt="img">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="assets/image/Twitter.png" alt="img">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="assets/image/Mail.png" alt="img">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="assets/image/Linkedin.png" alt="img">
+                                    </a></li>
+                                <li><a href="#">
+                                        <img src="assets/image/Youtube.png" alt="img">
+                                    </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-middle d-block">
+            <div class="container">
+                <div class="footer-middle-inner d-block">
+                    <div class="footer-middle-content row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 item">
+                            <div class="inner d-block">
+                                <div class="title">
+                                    <h4 class="h4">CUSTOMER SERVICE</h4>
+                                </div>
+                                <div class="mob-title">
+                                    <h4 class="h4">CUSTOMER SERVICE</h4>
+                                    <span class="angle" data-content="#ft1">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                                </div>
+                                <ul class="footer-links" id="ft1">
+                                    <li><a href="#">Help & Contact</a></li>
+                                    <li><a href="#">Delivery Information</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Payment Options</a></li>
+                                    <li><a href="#">Track Order</a></li>
+                                    <li><a href="#">Certified Jewellery</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 item">
+                            <div class="inner d-block">
+                                <div class="title">
+                                    <h4 class="h4">ABOUT US</h4>
+                                </div>
+                                <div class="mob-title">
+                                    <h4 class="h4">ABOUT US</h4>
+                                    <span class="angle" data-content="#ft2">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                                </div>
+                                <div class="footer-links" id="ft2">
+                                    <li><a href="#">ABOUT US</a></li>
+                                    <li><a href="#">Terms and Conditions</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Vacancies</a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 item">
+                            <div class="inner d-block">
+                                <div class="title">
+                                    <h4 class="h4">PRODUCTS</h4>
+                                </div>
+                                <div class="mob-title">
+                                    <h4 class="h4">PRODUCTS</h4>
+                                    <span class="angle" data-content="#ft3">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                                </div>
+                                <div class="footer-links" id="ft3">
+                                    <li><a href="#">Jewelry</a></li>
+                                    <li><a href="#">Gold</a></li>
+                                    <li><a href="#">Returns</a></li>
+                                    <li><a href="#">Silver</a></li>
+                                    <li><a href="#">Men</a></li>
+                                    <li><a href="#">Children</a></li>
+                                    <li><a href="#">Watches</a></li>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 item">
+                            <div class="inner d-block">
+                                <div class="title">
+                                    <h4 class="h4">ABOUT US</h4>
+                                </div>
+                                <div class="mob-title">
+                                    <h4 class="h4">ABOUT US</h4>
+                                    <span class="angle" data-content="#ft4">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                                </div>
+                                <ul class="footer-links" id="ft4">
+                                    <li class="link">
+                                        <a href="#">
+                                            <p>Address: Lorem ipsssu</p>
+                                            <p>t 1, 1093 ES, Amsterdam</p>
+                                        </a>
+                                    </li>
+                                    <li><a href="tel:Call: 123 34531 2222"><p>Call: 123 34531 2222</p></a></li>
+                                    <li><a href="#"><p>Mail: info@sddddd.nl</p></a></li>
+                                    <li><a href="#">
+                                            <p>Open: Tuesday to Saturday</p>
+                                            <p>(10:00 am - 5:00 pm)</p>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom d-block">
+            <div class="container">
+                <div class="inner">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="copyright">
+                                <p>2022 © Test. All Rights Reserved @ Bloom</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <ul class="payment-icon m-0 d-flex justify-content-end">
+                                <li><a href="#"><img src="assets/image/Vector(0).png" alt="paymenticon"></a></li>
+                                <li><a href="#"><img src="assets/image/Vector (1).png" alt="paymenticon"></a></li>
+                                <li><a href="#"><img src="assets/image/Vector (2).png" alt="paymenticon"></a></li>
+                                <li><a href="#"><img src="assets/image/Vector (3).png" alt="paymenticon"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER-END -->
+
+    <!-- CHAT BOX -->
+    <div class="chat-box">
+        <button class="chat-btn">
+            <i class="fas fa-comment"></i>
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="login-form">
+            <div class="login-top">
+                <p> For technical support please create ticket at our support center.
+                    <span> <a href="#"> Click Here</a></span>
+                </p>
+
+            </div>
+            <div class="login-bottom">
+                <form action="">
+                    <input type="text" placeholder="*Name" id="name">
+                    <input type="email" placeholder="*Email" id="email">
+                    <button type="button">
+                        <div class="icon">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        Start Chat
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="scroll-btn">
+            <button type="button" class="top-btn" onclcik="top();">
+                <i class="fa-solid fa-arrow-up"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- ICON BAR -->
+    <div class="icon-bar">
+        <div class="iconbar-inner">
+            <a href="#" class="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="google"><i class="fa-brands fa-google-plus-g"></i></a>
+            <a href="#" class="linkedin"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+            <button class="close-icons">
+                <span>
+                    <i class="fa-solid fa-xmark"></i>
+                </span>
+            </button>
+        </div>
+    </div>
+
+</body>
+
+</html>
